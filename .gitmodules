@@ -1,0 +1,3 @@
+[submodule "tiago_description/cmake"]
+	path = tiago_description/cmake
+	url = git://github.com/jrl-umi3218/jrl-cmakemodules.git
