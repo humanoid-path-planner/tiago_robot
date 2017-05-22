@@ -12,7 +12,7 @@ foreach(dir gazebo Media meshes robots urdf srdf)
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
 endforeach(dir)
 
-SET(TYPES iron steel)
+SET(TYPES iron steel steel_with_translation)
 
 MAKE_DIRECTORY(${CMAKE_BINARY_DIR}/robots)
 FOREACH(type ${TYPES})
