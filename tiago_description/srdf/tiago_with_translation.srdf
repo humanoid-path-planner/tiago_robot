@@ -109,4 +109,12 @@
   <disable_collisions link1="base_antenna_left_link" link2="arm_2_tranlation_link" reason="User defined" />
   <disable_collisions link1="arm_2_tranlation_link" link2="arm_4_link" reason="User defined" />
   <disable_collisions link1="torso_fixed_link" link2="arm_2_tranlation_link" reason="User defined" />
+  <disable_collisions link1="torso_fixed_column_link" link2="arm_tool_link" reason="User defined" />
+  <disable_collisions link1="torso_fixed_link" link2="arm_tool_link" reason="User defined" />
+  <disable_collisions link1="arm_tool_link" link2="wheel_right_link" reason="User defined" />
+  <disable_collisions link1="torso_fixed_link" link2="arm_tool_link" reason="User defined" />
+  <disable_collisions link1="arm_tool_link" link2="head_2_link" reason="User defined" />
+  <disable_collisions link1="arm_5_link" link2="arm_tool_link" reason="User defined" />
+  <disable_collisions link1="torso_lift_link" link2="arm_tool_link" reason="User defined" />
+  <disable_collisions link1="base_link" link2="arm_tool_link" reason="User defined" />
 </robot>
