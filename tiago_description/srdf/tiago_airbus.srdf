@@ -1,0 +1,6 @@
+<robot name="tiago">
+  <gripper name="center" clearance="0.05">
+    <position>0 0 0 1 0 0 0</position>
+    <link name="gripper_link" />
+  </gripper>
+</robot>
