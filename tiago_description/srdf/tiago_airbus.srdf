@@ -112,4 +112,33 @@
   <disable_collisions link1="arm_5_link" link2="arm_tool_link" reason="User defined" />
   <disable_collisions link1="torso_lift_link" link2="arm_tool_link" reason="User defined" />
   <disable_collisions link1="base_link" link2="arm_tool_link" reason="User defined" />
-</robot>
+  <disable_collisions link1="arm_4_link" link2="gripper_l_link" reason="User defined" />
+  <disable_collisions link1="gripper_1_link" link2="wheel_right_link" reason="User defined" />
+  <disable_collisions link1="gripper_0_link" link2="gripper_1_link" reason="User defined" />
+  <disable_collisions link1="arm_3_link" link2="gripper_0_link" reason="User defined" />
+  <disable_collisions link1="arm_tool_link" link2="gripper_l_link" reason="User defined" />
+  <disable_collisions link1="arm_6_link" link2="gripper_0_link" reason="User defined" />
+  <disable_collisions link1="arm_6_link" link2="gripper_r_link" reason="User defined" />
+  <disable_collisions link1="arm_6_link" link2="gripper_1_link" reason="User defined" />
+  <disable_collisions link1="arm_5_link" link2="gripper_r_link" reason="User defined" />
+  <disable_collisions link1="arm_4_link" link2="gripper_0_link" reason="User defined" />
+  <disable_collisions link1="arm_6_link" link2="gripper_l_link" reason="User defined" />
+  <disable_collisions link1="arm_4_link" link2="wheel_left_link" reason="User defined" />
+  <disable_collisions link1="arm_4_link" link2="gripper_r_link" reason="User defined" />
+  <disable_collisions link1="arm_5_link" link2="wheel_left_link" reason="User defined" />
+  <disable_collisions link1="gripper_l_link" link2="wheel_right_link" reason="User defined" />
+  <disable_collisions link1="gripper_r_link" link2="wheel_right_link" reason="User defined" />
+  <disable_collisions link1="arm_5_link" link2="gripper_0_link" reason="User defined" />
+  <disable_collisions link1="arm_tool_link" link2="gripper_r_link" reason="User defined" />
+  <disable_collisions link1="arm_tool_link" link2="gripper_1_link" reason="User defined" />
+  <disable_collisions link1="arm_5_link" link2="gripper_l_link" reason="User defined" />
+  <disable_collisions link1="arm_3_link" link2="gripper_r_link" reason="User defined" />
+  <disable_collisions link1="arm_5_link" link2="gripper_1_link" reason="User defined" />
+  <disable_collisions link1="gripper_0_link" link2="wheel_right_link" reason="User defined" />
+  <disable_collisions link1="gripper_0_link" link2="gripper_r_link" reason="User defined" />
+  <disable_collisions link1="gripper_0_link" link2="gripper_l_link" reason="User defined" />
+  <disable_collisions link1="arm_3_link" link2="gripper_l_link" reason="User defined" />
+  <disable_collisions link1="arm_4_link" link2="gripper_1_link" reason="User defined" />
+  <disable_collisions link1="arm_3_link" link2="gripper_1_link" reason="User defined" />
+  <disable_collisions link1="arm_4_link" link2="wheel_right_link" reason="User defined" />
+  <disable_collisions link1="arm_6_link" link2="wheel_left_link" reason="User defined" /></robot>
